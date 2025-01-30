@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "model": "frosty_farm:block/kitchen_counter"
+  },
+  "facing=south": {
+    "model": "frosty_farm:block/kitchen_counter",
+    "y": 180
+  },
+  "facing=east": {
+    "model": "frosty_farm:block/kitchen_counter",
+    "y": 90
+  },
+  "facing=west": {
+    "model": "frosty_farm:block/kitchen_counter",
+    "y": 270
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "frosty_farm:coffee_berries"
+  },
+  "result": {
+    "id": "frosty_farm:roasted_coffee_beans"
+  }
+}

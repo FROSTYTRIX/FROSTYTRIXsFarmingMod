@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "frosty_farm:block/coffee_berry_bush/coffee_berry_bush_stage1"
+  }
+}

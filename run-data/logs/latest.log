@@ -1,0 +1,20 @@
+[30janv.2025 17:06:21.571] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\ihsan\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, frosty_farm, --all, --output, C:\Users\ihsan\Desktop\FROSTYTRIX's Farming Mod\src\generated\resources, --existing, C:\Users\ihsan\Desktop\FROSTYTRIX's Farming Mod\src\main\resources]
+[30janv.2025 17:06:21.572] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[30janv.2025 17:06:21.574] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[30janv.2025 17:06:21.682] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[30janv.2025 17:06:21.767] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/ihsan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[30janv.2025 17:06:22.691] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30janv.2025 17:06:23.541] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\ihsan\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, frosty_farm, --all, --output, C:\Users\ihsan\Desktop\FROSTYTRIX's Farming Mod\src\generated\resources, --existing, C:\Users\ihsan\Desktop\FROSTYTRIX's Farming Mod\src\main\resources]
+[30janv.2025 17:06:27.978] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[30janv.2025 17:06:27.978] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[30janv.2025 17:06:28.011] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[30janv.2025 17:06:28.454] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [frosty_farm]
+[30janv.2025 17:06:28.506] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ihsan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[30janv.2025 17:06:28.506] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/ihsan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[30janv.2025 17:06:28.627] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[30janv.2025 17:06:28.837] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 209 ms
+[30janv.2025 17:06:28.838] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[30janv.2025 17:06:28.863] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 25 ms
+[30janv.2025 17:06:28.863] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: frosty_farm
+[30janv.2025 17:06:28.868] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: frosty_farm finished after 4 ms
+[30janv.2025 17:06:28.868] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: frosty_farm

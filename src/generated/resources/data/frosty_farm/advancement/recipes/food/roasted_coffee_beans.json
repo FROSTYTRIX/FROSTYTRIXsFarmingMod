@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coffee_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "frosty_farm:coffee_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "frosty_farm:roasted_coffee_beans"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_coffee_berries"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "frosty_farm:roasted_coffee_beans"
+    ]
+  }
+}

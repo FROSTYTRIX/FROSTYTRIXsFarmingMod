@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "crop": "frosty_farm:block/tomato_crop/tomato_crop_stage3"
+  }
+}

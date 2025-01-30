@@ -1,6 +1,11 @@
-package net.frostytrix.frostyfarm;
+package net.frostytrix.frosty_farm;
 
 import com.mojang.logging.LogUtils;
+import net.frostytrix.frosty_farm.block.ModBlocks;
+import net.frostytrix.frosty_farm.item.ModCreativeModeTabs;
+import net.frostytrix.frosty_farm.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -32,6 +37,9 @@ public class FrostyFarm
         MinecraftForge.EVENT_BUS.register(this);
 
 
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         
         // Register the item to a creative tab
@@ -43,7 +51,10 @@ public class FrostyFarm
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        event.enqueueWork(() -> {
+            ComposterBlock.COMPOSTABLES.put(ModItems.TOMATO.get(), .3f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.TOMATO_SEEDS.get(), .15f);
+    });
     }
 
     // Add the example block item to the building blocks tab

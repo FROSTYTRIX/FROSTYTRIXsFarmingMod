@@ -1,0 +1,11 @@
+{
+  "item.frosty_farm.tomato": "Tomato",
+  "item.frosty_farm.tomato_seeds": "Tomato Seeds",
+  "block.frosty_farm.tomato_crop": "Tomato Crop",
+  "item.frosty_farm.coffee_mug": "Coffee Mug",
+  "item.frosty_farm.coffee_berries": "Coffee Berries",
+  "item.frosty_farm.roasted_coffee_beans": "Roasted Coffee Beans",
+  "block.frosty_farm.coffee_berry_bush": "Coffee Berry Bush",
+  "block.frosty_farm.kitchen_counter": "Kitchen Counter",
+  "creative_tab.frosty_farm.food_tab" : "FROSTY's Food"
+}
